@@ -10,7 +10,7 @@ import { store } from './store';
 // import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL="https://movie-booking-app-a1sg.onrender.com"
+axios.defaults.baseURL="https://movie-booking-webapp.onrender.com"
 root.render(
   <React.StrictMode>
   <BrowserRouter>
